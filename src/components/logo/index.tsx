@@ -1,12 +1,10 @@
 import React from 'react'
 import styles from './styles.module.css'
+import ArtLogoHome from '../../assets/images/artLogoHome.svg'
 
-type Props =  {
-    page?: "Small" | "Medium"
-}
-const Logo: React.FC= ({ page }: Props) => {
+const Logo: React.FC = () => {
     return <>
-            <a href='http://brasfirst.com'><img className={styles.logo} src="/assets/images/ArtLogoHome.svg" alt="App Title"  /></a>
+        <a href='/'><img className={styles.logo} src={ArtLogoHome} alt="App Title" /></a>
     </>
 }
 
