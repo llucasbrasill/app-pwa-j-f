@@ -1,0 +1,12 @@
+.logo {
+    height: 150px;
+}
+
+.loading {
+    position: absolute;
+    left: 0;
+    height: 40%;
+    bottom: 0;
+    z-index: -1;
+    object-fit: contain;
+}

@@ -1,0 +1,10 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    padding-top: 32px;
+}
+
+.section {
+    max-width: 90%;
+    margin: auto;
+}

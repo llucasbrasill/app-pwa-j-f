@@ -4,7 +4,7 @@ import ArtLogoHome from '../../assets/images/artLogoHome.svg'
 
 const Logo: React.FC = () => {
     return <>
-        <a href='/'><img className={styles.logo} src={ArtLogoHome} alt="App Title" /></a>
+        <a href='/'><img className={styles.logo} src={ArtLogoHome} alt="" /></a>
     </>
 }
 

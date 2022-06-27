@@ -11,7 +11,7 @@ const Social: React.FC = () => {
         <ul className={styles.wrapper}>
             <li><a href={process.env.REACT_APP_LINKEDIN}><img src={icoLinkedIn} alt="" /> Instituto J&F</a></li>
             <li><a href={process.env.REACT_APP_TIKTOK}><img src={IcoTiktok} alt="" /> Germinare</a></li>
-            <li><a href={process.env.REACT_APP_INSTAGRAM}><img src={IcoTiktok} alt="" /> Germinare</a></li>
+            <li><a href={process.env.REACT_APP_INSTAGRAM}><img src={icoInstagram} alt="" /> Germinare</a></li>
             <li><a href={process.env.REACT_APP_INSTAGRAM_TECH}><img src={icoInstagram} alt="" /> GerminareTech</a></li>
         </ul>
     </>
