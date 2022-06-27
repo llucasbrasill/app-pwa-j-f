@@ -1,0 +1,40 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+    width: 90%;
+}
+
+.wrapper li {
+    height: auto;
+    list-style: none;
+    text-align: center;
+}
+
+.wrapper a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-decoration: none;
+    color: #001489;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper li img {
+    width: 56px;
+    height: 56px;
+    object-fit: contain;
+    margin: 8px;
+}
+
+.title {
+    width: 90%;
+    font-size: 16px;
+    padding: 0 5%;
+    color: #001489;
+}
