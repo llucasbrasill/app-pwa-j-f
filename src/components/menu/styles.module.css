@@ -1,8 +1,7 @@
 .wrapper ul {
-    padding: 0;
     display: flex;
     flex-wrap: wrap;
-    padding: 32px 5%;
+    padding: 16px 0 16px 0;
     justify-content: space-evenly;
 }
 
